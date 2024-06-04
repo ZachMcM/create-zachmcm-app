@@ -3,7 +3,7 @@ import express from "express"
 import cors from "cors"
 import bodyParser from "body-parser";
 
-const port = process.env.PORT
+const port = process.env.PORT || 8000
 
 const app = express()
 app.use(cors())
