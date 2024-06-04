@@ -1,0 +1,31 @@
+{
+  "name": "create-zachmcm-app",
+  "version": "1.0.1",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.mjs",
+    "build": "mkdir dist && npm ci && tsc"
+  },
+  "bin": "./index.mjs",
+  "keywords": [
+    "express",
+    "typescript",
+    "cli",
+    "boilerplate"
+  ],
+  "author": "Zach McMullen",
+  "license": "MIT",
+  "description": "A CLI for generating the boilerplate for an Express.js server using Typescript.",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.5"
+  },
+  "repository": "github:ZachMcM/create-zachmcm-app",
+  "homepage": "https://github.com/ZachMcM/create-zachmcm-app"
+}
